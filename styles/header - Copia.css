@@ -1,0 +1,9 @@
+body > header{
+    background-color: var(--color-grey-5);
+    padding: 28px 0px;
+}
+body > header nav{
+    display: var(--d-flex);
+    flex-direction: column;
+    gap: 20px;
+}

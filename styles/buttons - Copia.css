@@ -1,0 +1,62 @@
+.button__filters{
+    border: 1.5px solid var(--color-grey-5);
+    border-radius: var(--radius-1);
+    background-color: var(--color-mode);
+    color: var(--color-grey-2);
+    padding: var(--padding-top-bottom-7_5) 14px;
+    cursor: var(--pointer);
+    transition: var(--animation-duration) var(--animation-type);
+}
+.button__filters:hover, .button__filters-active{
+    border-color: var(--color-brand-1);
+    background-color: var(--color-brand-3);
+    color: var(--color-brand-1);
+}
+
+.buttun__register{
+    color: var(--fixed-white);
+    background-color: var(--color-brand-1);
+    border: var(--border-none);
+    border-radius: var(--radius-1);
+    padding: var(--padding-top-bottom-7_5) 12px;
+    cursor: var(--pointer);
+    transition: var(--animation-duration) var(--animation-type);
+}
+.buttun__register:hover{
+    background-color: var(--color-brand-2);
+}
+
+.button__type, :disabled{
+    color: var(--color-grey-2);
+    background-color: var(--color-grey-4);
+    border-radius: var(--radius-1);
+    border: var(--border-none);
+    padding: var(--padding-top-bottom-7_5) 0px;
+}
+
+.button__trash{
+    width: 28.25px;
+    border: 1px solid var(--color-grey-5);
+    border-radius: var(--radius-2);
+    background-color: transparent;
+    background-image: url(../assets/trash.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: var(--pointer);
+    transition: var(--animation-duration) var(--animation-type);
+}
+.button__trash:hover{
+    border-color: var(--color-red);
+
+}
+.button__close{
+    font-family: var(--font-family-2);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-2);
+    line-height: var(--font-line-height-1);
+    cursor: var(--pointer);
+    transition: var(--animation-duration) var(--animation-type);
+}
+.button__close:hover{
+    color: var(--color-red);
+}

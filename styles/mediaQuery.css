@@ -1,0 +1,31 @@
+@media (min-width: 700px) {
+    .container {
+      max-width: 43rem;
+      margin: 0 auto;
+    }
+  
+    body > header nav{
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    main .filters{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #modalInsertValue form{
+      flex-direction: row;
+      align-items: center;
+    }
+    #modalInsertValue form label{
+      width: 30%;
+    }
+    #modalInsertValue #cancelInsert{
+      justify-content: flex-end;
+      gap: 20px;
+    }
+    #modalInsertValue #cancelInsert button{
+      width: 30%;
+    }
+  }
+  

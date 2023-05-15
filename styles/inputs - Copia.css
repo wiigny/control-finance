@@ -1,0 +1,17 @@
+::placeholder{
+    color: var(--color-grey-2);
+    font-family: var(--font-family-1);
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-3);
+    line-height: var(--font-line-height-1);
+}
+.input__modal{
+    padding: 11.5px 16px;
+    border: 2px solid var(--color-grey-3);
+    border-radius: var(--radius-1);
+    color: var(--color-grey-1);
+    transition: var(--animation-duration) var(--animation-type);
+}
+.input__modal:focus, .input__modal:hover{
+    border-color: var(--color-brand-1);
+}

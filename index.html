@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Finance</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Control Finance - Seu controle financeiro">
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./styles/texts.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/inputs.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/mediaQuery.css">
+    
+    <link rel="stylesheet" href="./pages/home/index.css">
+
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <h1 class="title1-bold"><span>Control</span> Finance</h1>
+            <button type="button" id="registerValue" class="buttun__register text1-bold">Registrar novo valor</button>
+        </nav>
+    </header>
+    <main id="app" class="container">
+        <section class="filters">
+            <h2 class="title2-medium">Resumo financeiro</h2>
+            <ul id="buttonFilters">
+                <li id="all" class="button__filters text1-bold button__filters-active">Todos</li>
+                <li class="button__filters text1-bold">Entradas</li>
+                <li class="button__filters text1-bold">Saídas</li>
+            </ul>
+        </section>
+
+        <section class="listValues">
+            <div>
+                <h3 class="text1-medium">Soma dos valores</h3>
+                <p id="countValues" class="text1-medium">R$ 00,00</p>
+            </div>
+            <ul id="addValues">
+            </ul>
+        </section>
+
+    </main>
+    <script src="./pages/home/valuesData.js"></script>
+    <script src="./scripts/modal.js"></script>
+    <script src="./pages/home/index.js"></script>
+</body>
+</html>
